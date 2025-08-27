@@ -52,14 +52,14 @@ def main():
                     save_notes(notes)
                     print(f"🗑 Deleted: {deleted}")
                 else:
-                    print(" Invalid number.")
+                    print("Invalid number.")
             except ValueError:
-                print(" Please enter a valid number.")
+                print("Please enter a valid number.")
         elif choice == "4":
             print("Goodbye!")
             break
         else:
-            print(" Invalid option, try again.")
+            print("Invalid option, try again.")
 
 if __name__ == "__main__":
     main()
